@@ -1,1 +1,2 @@
-# miniproject_260194
+# Miniproject_260194
+PROJECT INFORMATION
