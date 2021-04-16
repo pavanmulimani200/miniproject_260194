@@ -18,12 +18,12 @@ in this system, we can perform various actions. initially, the number of custome
 ## SWOT Analysis
 **Strengths**/
 1. User friendly
-2. Highly secured
+2. Highly secured/
 **Weekness**/
-1. Huge data to be managed
+1. Huge data to be managed/
 **Oportunities**/
-1. innovative options
+1. innovative options/
 **Threats**/
 1. Data breach
-2. Fraud activities
+2. Fraud activities/
 
