@@ -1,18 +1,47 @@
+/**
+ * @file bank.c
+ * @author Pavan B Mulimani
+ * @brief Bank account management system
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
 #include<stdio.h>
 #include<stdlib.h>
+/**
+ * @brief struct accountdetail
+ * 
+ */
 struct accountdetail
 {
     int acntno,pin,bal;
     char name[10],addr[10],cont[10];
 };
-    void display(struct accountdetail *a,int n)
-    {
+
+/**
+ * @brief dispay function
+ * 
+ * @param a accountdetail
+ * @param n no. of customers
+ */
+void display(struct accountdetail *a,int n)
+{
         int i;
         for(i=0;i<n;i++)
         {
             printf("\n%d %s %s %s %d %d",a[i].acntno,a[i].name,a[i].addr,a[i].cont,a[i].pin,a[i].bal);
         }
-    }
+}
+/**
+ * @brief function to search for customer
+ * 
+ * @param a accountdetail
+ * @param n no. of customers
+ */
     void search(struct accountdetail *a,int n)
     {
         int i,accno,cont,pin,f=0;
@@ -31,6 +60,13 @@ struct accountdetail
         if(f==0)
             printf("record not found");
     }
+
+    /**
+     * @brief function to modify account deatils
+     * 
+     @param a accountdetail
+ * @param n no. of customers
+     */
         void modify(struct accountdetail *a,int n)
         {
             int i,accno,choice1,f=0;
@@ -69,6 +105,12 @@ struct accountdetail
                 if(f==0)
                     printf("record not found");
         }
+        /**
+         * @brief function to delete account
+         * 
+          @param a accountdetail
+ * @param n no. of customers
+         */
         void del(struct accountdetail *a,int *n)
         {
             int i,accno,f=0;
@@ -90,6 +132,12 @@ struct accountdetail
                 if(f==0)
                     printf("record not found");
         }
+        /**
+         * @brief function to withdraw money
+         * 
+          @param a accountdetail
+ * @param n no. of customers 
+         */
        void withdraw(struct accountdetail *a,int n)
        {
                 int i,accno,bal,f=0,amount;
@@ -121,6 +169,13 @@ struct accountdetail
                 if(f==0)
                     printf("record not found");
        }
+
+       /**
+        * @brief function to deposit money in account
+        * 
+         @param a accountdetail
+ * @param n no. of customers
+        */
           void deposit(struct accountdetail *a,int n)
                 {
           int accno,i,amount,f=0,deposit;
@@ -144,6 +199,16 @@ struct accountdetail
                 {
                     printf("invalid choice");
                 }
+
+
+
+
+              
+/**
+ * @brief main function
+ * 
+ * @return int 
+ */
 int main()
 {
     struct accountdetail *a;
