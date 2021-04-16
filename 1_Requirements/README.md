@@ -14,3 +14,16 @@ Bank management can be used to perform various actions on their bank account. Th
 
 ## Description
 in this system, we can perform various actions. initially, the number of customers in that particular bank is asked. Then memory is allocated dynamically for those accounts. Details for all accounts is taken. Then menu is shoen and asked for input. The user can search for a particular account by account number.He can display a particular account details. He can withdraw money from his account. Amount can be deposited to his account. Even the account details can be modified and also the account can be deleted.
+
+## SWOT Analysis
+**Strengths**\
+1. User friendly
+2. Highly secured
+**Weekness**\
+1. Huge data to be managed
+**Oportunities**
+1. innovative options
+**Threats**
+1. Data breach
+2. Fraud activities
+
