@@ -27,3 +27,14 @@ in this system, we can perform various actions. initially, the number of custome
 1. Data breach
 2. Fraud activities
 
+## 4W's and 1H's
+### Who
+Bank officials to manage all accounts
+### What 
+Bank officials can manage the account details of all customers using this application
+### When
+This application can be used anytime during any transaction or account details update.
+### Where
+Bank or mobile banking application
+### How
+By using the executable files in this repository, application can be used
